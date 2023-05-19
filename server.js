@@ -22,7 +22,7 @@ Array.prototype.removeByValue = function (val) {
 class SocketListener extends EventEmitter {
     constructor() {
         super();
-        this.server = new Websocket.Server({ port: 3200 });
+        this.server = new Websocket.Server({ port: 80 });
     }
 
     async start() {
